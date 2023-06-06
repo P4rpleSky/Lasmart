@@ -31,3 +31,6 @@ D:\Programming\RiderProjects\Lasmart\Lasmart.Web\obj\Debug\net7.0\refint\Lasmart
 D:\Programming\RiderProjects\Lasmart\Lasmart.Web\obj\Debug\net7.0\Lasmart.Web.pdb
 D:\Programming\RiderProjects\Lasmart\Lasmart.Web\obj\Debug\net7.0\Lasmart.Web.genruntimeconfig.cache
 D:\Programming\RiderProjects\Lasmart\Lasmart.Web\obj\Debug\net7.0\ref\Lasmart.Web.dll
+D:\Programming\RiderProjects\Lasmart\Lasmart.Web\bin\Debug\net7.0\tsconfig.json
+D:\Programming\RiderProjects\Lasmart\Lasmart.Web\bin\Debug\net7.0\package-lock.json
+D:\Programming\RiderProjects\Lasmart\Lasmart.Web\bin\Debug\net7.0\package.json

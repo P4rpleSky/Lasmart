@@ -1,12 +1,18 @@
 ﻿{
+  "allowJs": true,
   "compileOnSave": true,
   "compilerOptions": {
+    "moduleResolution": "Node",
     "noImplicitAny": false,
     "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,
     "target": "es6",
-    "outDir": "wwwroot/js"
+    "outDir": "wwwroot/js",
+    "lib": [
+      "es6",
+      "dom"
+    ]
   },
   "include": [
     "wwwroot/ts/**/*"

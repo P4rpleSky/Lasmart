@@ -1,6 +1,6 @@
-﻿import {ResponseDto} from "../../Models/ResponseDto";
+﻿import {ResponseDto} from "../../models/ResponseDto";
 
 export interface IPointService {
-    getPointAsync() : Promise<ResponseDto>
+    getPointsAsync() : Promise<ResponseDto>
     deletePointByIdAsync(pointId: number) : Promise<ResponseDto>
 }

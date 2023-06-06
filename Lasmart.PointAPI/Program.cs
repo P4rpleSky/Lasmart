@@ -22,6 +22,18 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddSingleton<IPointRepository, PointRepository>();
 
+builder.Services.AddCors();
+
+var apiPolicyName = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: apiPolicyName,
+        policyBuilder =>
+        {
+            policyBuilder.WithOrigins("https://localhost:7079").AllowAnyHeader().AllowAnyMethod();
+        });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -32,6 +44,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(apiPolicyName);
 
 app.UseAuthorization();
 

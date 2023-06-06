@@ -57,6 +57,14 @@ public class PointRepository : IPointRepository
                 Y = -50,
                 Radius = 100,
                 Color = "Black"
+            },
+            new()
+            {
+                Id = 6,
+                X = 900.5,
+                Y = 900.5,
+                Radius = 250.8,
+                Color = "Yellow"
             }
         };
         _db.Points.AddRange(points);

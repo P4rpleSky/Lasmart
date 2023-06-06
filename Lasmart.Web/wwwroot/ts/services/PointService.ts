@@ -1,9 +1,8 @@
-﻿import {IPointService} from "IServices/IPointService";
-import {BaseService} from "./BaseService";
-import {ResponseDto} from "../models/ResponseDto";
-import {ApiMethod} from "../models/ApiMethod";
-import {ApiRequest} from "../models/ApiRequest";
-
+﻿import {IPointService} from "./IServices/IPointService.js";
+import {BaseService} from "./BaseService.js";
+import {ResponseDto} from "../models/ResponseDto.js";
+import {ApiMethod} from "../models/ApiMethod.js";
+import {ApiRequest} from "../models/ApiRequest.js";
 export class PointService extends BaseService implements IPointService {
     
     constructor(baseUrl: string)  {
@@ -12,14 +11,14 @@ export class PointService extends BaseService implements IPointService {
     deletePointByIdAsync(pointId: number): Promise<ResponseDto> {
         return this.sendAsync(new ApiRequest(
             ApiMethod.DELETE,
-            this.baseUrl + `api/points/pointId=${pointId}`
+            `api/points/pointId=${pointId}`
         ));
     }
 
-    getPointAsync(): Promise<ResponseDto> {
+    getPointsAsync(): Promise<ResponseDto> {
         return this.sendAsync(new ApiRequest(
             ApiMethod.GET,
-            this.baseUrl + "api/points"
+            "api/points"
         ));
     }
     

@@ -1,6 +1,6 @@
 ﻿export enum ApiMethod { 
-    GET,
-    DELETE,
+    GET = "GET",
+    DELETE = "DELETE",
 /*    POST,
     PUT*/
 }

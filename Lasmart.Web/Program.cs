@@ -1,6 +1,7 @@
 using Lasmart.Web;
 using Lasmart.Web.Services;
 using Lasmart.Web.Services.IServices;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,8 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseDefaultFiles();
 app.UseStaticFiles();
 
 app.UseRouting();
