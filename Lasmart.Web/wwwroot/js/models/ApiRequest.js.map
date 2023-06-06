@@ -1,0 +1,1 @@
+{"version":3,"file":"ApiRequest.js","sourceRoot":"","sources":["../../ts/models/ApiRequest.ts"],"names":[],"mappings":"AAEA,MAAM,OAAO,UAAU;IAKnB,YAAY,SAAoB,EAAE,GAAW,EAAE,IAAI,GAAG,IAAI;QACtD,IAAI,CAAC,SAAS,GAAG,SAAS,CAAC;QAC3B,IAAI,CAAC,GAAG,GAAG,GAAG,CAAC;QACf,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;IACrB,CAAC;CACJ"}
