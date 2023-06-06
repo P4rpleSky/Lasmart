@@ -123,7 +123,7 @@ public class PointRepository : IPointRepository
     
     public async Task<IEnumerable<PointDto>> GetPointsAsync()
     {
-        var points = await _db.Points.ToListAsync();
+        var points = await _db.Points.OrderBy(x => x.Id).ToListAsync();
         return _mapper.Map<List<PointDto>>(points);
     }
 
