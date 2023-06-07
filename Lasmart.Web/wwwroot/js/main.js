@@ -3,11 +3,14 @@ import { get_konva_circle } from "./get_konva_circle.js";
 import {get_comments_layer} from "./get_comments_table.js";
 
 const pointService = new PointService("https://localhost:7259/");
+const baseDivId = 'base-div';
+const stageWidth = document.getElementById(baseDivId).offsetWidth;
+const stageHeight = 1080;
 
 const stage = new Konva.Stage({
-    container: 'base-div',
-    width: 1920,
-    height: 1080
+    container: baseDivId,
+    height: stageHeight,
+    width: stageWidth
 });
 
 pointService.getPointsAsync()

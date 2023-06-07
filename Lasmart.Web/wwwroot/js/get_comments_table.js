@@ -15,6 +15,7 @@
             text: comment.text,
             fontSize: 20,
             align: 'center',
+            /*fill: "green",*/
             padding: 10
         })
 
