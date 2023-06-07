@@ -1,1 +1,1 @@
-{"version":3,"file":"CommentDto.js","sourceRoot":"","sources":["../../ts/models/CommentDto.ts"],"names":[],"mappings":"AAAA,MAAM,OAAO,UAAU;CAKtB"}
+{"version":3,"file":"CommentDto.js","sourceRoot":"","sources":["../../../Scripts/Models/CommentDto.ts"],"names":[],"mappings":"AAAA,MAAM,OAAO,UAAU;CAMtB"}

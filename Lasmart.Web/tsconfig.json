@@ -15,6 +15,6 @@
     ]
   },
   "include": [
-    "wwwroot/ts/**/*"
+    "Scripts/**/*"
   ]
 }

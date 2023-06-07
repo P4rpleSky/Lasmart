@@ -63,7 +63,7 @@ public class PointRepository : IPointRepository
                 Id = 6,
                 X = 900.5,
                 Y = 900.5,
-                Radius = 250.8,
+                Radius = 40.78,
                 Color = "Yellow"
             }
         };
@@ -83,7 +83,7 @@ public class PointRepository : IPointRepository
             {
                 Id = 2,
                 Text = "Bla bla 1",
-                BackgroundColor = "White",
+                BackgroundColor = "Yellow",
                 PointId = 1
             },
             new()
@@ -97,29 +97,43 @@ public class PointRepository : IPointRepository
             {
                 Id = 4,
                 Text = "Bla bla 3",
-                BackgroundColor = "White",
+                BackgroundColor = "Red",
                 PointId = 1
             },
             new()
             {
                 Id = 5,
                 Text = "Comment for point 2",
-                BackgroundColor = "White",
+                BackgroundColor = "Green",
                 PointId = 2
             },
             new()
             {
                 Id = 6,
                 Text = "Bla bla 6 Comment for point 3",
-                BackgroundColor = "White",
+                BackgroundColor = "Pink",
                 PointId = 3
             },
             new()
             {
                 Id = 7,
                 Text = "Comment for point 4",
-                BackgroundColor = "White",
+                BackgroundColor = "Violet",
                 PointId = 4
+            },
+            new()
+            {
+                Id = 8,
+                Text = "Comment for point 6",
+                BackgroundColor = "Green",
+                PointId = 6
+            },
+            new()
+            {
+                Id = 9,
+                Text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                BackgroundColor = "blue",
+                PointId = 6
             }
         };
         _db.Comments.AddRange(comments);

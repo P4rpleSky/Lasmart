@@ -1,16 +1,9 @@
 using Lasmart.Web;
-using Lasmart.Web.Services;
-using Lasmart.Web.Services.IServices;
 using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-SD.PointAPIBase = builder.Configuration["BaseUrl"];
-
-builder.Services.AddHttpClient<IPointService, PointService>();
-builder.Services.AddScoped<IPointService, PointService>();
-
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();

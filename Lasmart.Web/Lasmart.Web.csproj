@@ -2186,6 +2186,15 @@
       <TypeScriptCompile Remove="wwwroot\js\ts\services\IServices\IBaseService.ts" />
       <TypeScriptCompile Remove="wwwroot\js\ts\services\IServices\IPointService.ts" />
       <TypeScriptCompile Remove="wwwroot\js\ts\services\PointService.ts" />
+      <TypeScriptCompile Remove="wwwroot\ts\models\ApiMethod.ts" />
+      <TypeScriptCompile Remove="wwwroot\ts\models\ApiRequest.ts" />
+      <TypeScriptCompile Remove="wwwroot\ts\models\CommentDto.ts" />
+      <TypeScriptCompile Remove="wwwroot\ts\models\PointDto.ts" />
+      <TypeScriptCompile Remove="wwwroot\ts\models\ResponseDto.ts" />
+      <TypeScriptCompile Remove="wwwroot\ts\services\BaseService.ts" />
+      <TypeScriptCompile Remove="wwwroot\ts\services\IServices\IBaseService.ts" />
+      <TypeScriptCompile Remove="wwwroot\ts\services\IServices\IPointService.ts" />
+      <TypeScriptCompile Remove="wwwroot\ts\services\PointService.ts" />
     </ItemGroup>
 
 </Project>

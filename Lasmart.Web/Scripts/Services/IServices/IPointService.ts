@@ -1,4 +1,4 @@
-﻿import {ResponseDto} from "../../models/ResponseDto";
+﻿import {ResponseDto} from "../../Models/ResponseDto";
 
 export interface IPointService {
     getPointsAsync() : Promise<ResponseDto>

@@ -1,5 +1,6 @@
-import { PointService } from "./services/PointService.js";
+import { PointService } from "./Services/PointService.js";
 import { get_konva_circle } from "./get_konva_circle.js";
+import {get_comments_layer} from "./get_comments_table.js";
 
 const pointService = new PointService("https://localhost:7259/");
 
@@ -12,17 +13,19 @@ const stage = new Konva.Stage({
 pointService.getPointsAsync()
     .then(response => {
         if (response.isSuccess) {
+            
             const pointsList = response.result;
             
-            const layer = new Konva.Layer();
-            
             pointsList.forEach(function (pointWithComments) {
+                const layer = get_comments_layer(pointWithComments);
                 const circle = get_konva_circle(pointWithComments);
+                
                 circle.on("dblclick", function (e) {
                     pointService.deletePointByIdAsync(e.target.attrs.id)
-                        .then(x => circle.destroy())
+                        .then(x => layer.destroy())
                         .catch(x => alert(`Failed to delete point. Error: "${x}")`))
-                })
+                });
+                
                 layer.add(circle);
                 stage.add(layer);
             });

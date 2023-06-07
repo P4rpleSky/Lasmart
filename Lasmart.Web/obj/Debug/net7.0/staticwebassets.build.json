@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X2RCYzUOjJohS/4HVFlb65OAbF9uh0/rnuZql25n2d4=",
+  "Hash": "oL8xE1GEn/8p3i0LXn5PyUEEYFwNMuK92/f3lDH7kAI=",
   "Source": "Lasmart.Web",
   "BasePath": "_content/Lasmart.Web",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Programming\\RiderProjects\\Lasmart\\Lasmart.Web\\wwwroot\\js\\get_comments_table.js",
+      "SourceId": "Lasmart.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Programming\\RiderProjects\\Lasmart\\Lasmart.Web\\wwwroot\\",
+      "BasePath": "_content/Lasmart.Web",
+      "RelativePath": "js/get_comments_table.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\get_comments_table.js"
     },
     {
       "Identity": "D:\\Programming\\RiderProjects\\Lasmart\\Lasmart.Web\\wwwroot\\js\\get_konva_circle.js",

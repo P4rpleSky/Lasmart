@@ -1,1 +1,1 @@
-{"version":3,"file":"ApiMethod.js","sourceRoot":"","sources":["../../ts/models/ApiMethod.ts"],"names":[],"mappings":"AAAA,MAAM,CAAN,IAAY,SAKX;AALD,WAAY,SAAS;IACjB,wBAAW,CAAA;IACX,8BAAiB,CAAA;IACrB;aACS;AACT,CAAC,EALW,SAAS,KAAT,SAAS,QAKpB"}
+{"version":3,"file":"ApiMethod.js","sourceRoot":"","sources":["../../../Scripts/Models/ApiMethod.ts"],"names":[],"mappings":"AAAA,MAAM,CAAN,IAAY,SAKX;AALD,WAAY,SAAS;IACjB,wBAAW,CAAA;IACX,8BAAiB,CAAA;IACrB;aACS;AACT,CAAC,EALW,SAAS,KAAT,SAAS,QAKpB"}

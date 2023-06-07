@@ -1,6 +1,6 @@
 import { BaseService } from "./BaseService.js";
-import { ApiMethod } from "../models/ApiMethod.js";
-import { ApiRequest } from "../models/ApiRequest.js";
+import { ApiMethod } from "../Models/ApiMethod.js";
+import { ApiRequest } from "../Models/ApiRequest.js";
 export class PointService extends BaseService {
     constructor(baseUrl) {
         super(baseUrl);

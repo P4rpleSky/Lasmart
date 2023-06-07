@@ -1,7 +1,7 @@
 ﻿import {IBaseService} from "./IServices/IBaseService.js";
-import {ApiRequest} from "../models/ApiRequest.js";
-import {ResponseDto} from "../models/ResponseDto.js";
-import {ApiMethod} from "../models/ApiMethod.js";
+import {ApiRequest} from "../Models/ApiRequest.js";
+import {ResponseDto} from "../Models/ResponseDto.js";
+import {ApiMethod} from "../Models/ApiMethod.js";
 
 export class BaseService implements IBaseService {
 

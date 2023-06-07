@@ -1,5 +1,5 @@
-import { ResponseDto } from "../models/ResponseDto.js";
-import { ApiMethod } from "../models/ApiMethod.js";
+import { ResponseDto } from "../Models/ResponseDto.js";
+import { ApiMethod } from "../Models/ApiMethod.js";
 export class BaseService {
     constructor(baseUrl) {
         this.baseUrl = baseUrl;
