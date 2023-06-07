@@ -65,6 +65,14 @@ public class PointRepository : IPointRepository
                 Y = 900.5,
                 Radius = 40.78,
                 Color = "Yellow"
+            },
+            new()
+            {
+                Id = 7,
+                X = 500,
+                Y = 400,
+                Radius = 3,
+                Color = "Black"
             }
         };
         _db.Points.AddRange(points);
@@ -134,6 +142,20 @@ public class PointRepository : IPointRepository
                 Text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
                 BackgroundColor = "blue",
                 PointId = 6
+            },
+            new()
+            {
+                Id = 10,
+                Text = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+                BackgroundColor = "Blue",
+                PointId = 7
+            },
+            new()
+            {
+                Id = 11,
+                Text = "tevirp",
+                BackgroundColor = "Red",
+                PointId = 7
             }
         };
         _db.Comments.AddRange(comments);
