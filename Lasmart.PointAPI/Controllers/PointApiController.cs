@@ -9,7 +9,7 @@ namespace Lasmart.PointAPI.Controllers;
 public class PointApiController : Controller
 {
     private readonly IPointRepository _pointRepository;
-    private ResponseDto _response;
+    private readonly ResponseDto _response;
 
     public PointApiController(IPointRepository pointRepository)
     {
