@@ -2166,10 +2166,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="wwwroot\lib\kendo-ui\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <TypeScriptCompile Include="wwwroot\ts\models\ApiRequest.ts" />
       <TypeScriptCompile Include="wwwroot\ts\models\ResponseDto.ts" />
       <TypeScriptCompile Include="wwwroot\ts\services\BaseService.ts" />
@@ -2195,6 +2191,67 @@
       <TypeScriptCompile Remove="wwwroot\ts\services\IServices\IBaseService.ts" />
       <TypeScriptCompile Remove="wwwroot\ts\services\IServices\IPointService.ts" />
       <TypeScriptCompile Remove="wwwroot\ts\services\PointService.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Animation.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\BezierFunctions.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Canvas.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Container.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Context.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Core.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\DragAndDrop.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Factory.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\FastLayer.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Blur.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Brighten.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Contrast.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Emboss.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Enhance.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Grayscale.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\HSL.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\HSV.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Invert.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Kaleidoscope.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Mask.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Noise.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Pixelate.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Posterize.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\RGB.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\RGBA.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Sepia.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Solarize.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\filters\Threshold.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Global.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Group.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\index-node.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\index-types.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\index.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Layer.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Node.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\PointerEvents.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Shape.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Arc.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Arrow.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Circle.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Ellipse.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Image.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Label.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Line.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Path.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Rect.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\RegularPolygon.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Ring.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Sprite.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Star.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Text.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\TextPath.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Transformer.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\shapes\Wedge.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Stage.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Tween.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\types.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Util.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\Validators.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\_CoreInternals.d.ts" />
+      <TypeScriptCompile Remove="wwwroot\lib\konva\lib\_FullInternals.d.ts" />
     </ItemGroup>
 
 </Project>
